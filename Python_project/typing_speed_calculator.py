@@ -19,7 +19,7 @@ def speed_time(time_s, time_e, userinput):
     return round(speed)
 if __name__ == '__main__':
     while True:
-        chk = input("Ready to test : yes / no :")
+        chk = input("Ready to test : yes / no : ")
         if chk == "yes":
             test = ["A paragraph is a group of sentences that fleshes out a single idea.",
                     "My name is Aklesh Yadav", 
