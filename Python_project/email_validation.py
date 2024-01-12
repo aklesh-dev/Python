@@ -5,7 +5,7 @@ if len(email) >= 6:
     if email[0].isalpha():
         # to check @ is only one in the email.
         if ("@" in email) and (email.count("@") == 1):
-            # ^ (exjort) operator used to get one of it True.
+            # ^ (XOR) operator used to get one of it True.
             if (email[-4] == ".") ^ (email[-3] == "."):
                 for i in email:
                     # check space in email
