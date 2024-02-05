@@ -1,5 +1,5 @@
 # Email validation using String function.
-email = input('Enter your email :') #a@g.in
+email = input('Enter your email :')  # a@g.in
 k,j,d = 0,0,0
 if len(email) >= 6:
     if email[0].isalpha():
